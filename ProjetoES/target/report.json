@@ -1,0 +1,89 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Somar",
+        "description": "",
+        "id": "calc;somar",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 85731200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu escolha somar",
+            "match": {
+              "location": "TestSteps.que_eu_escolha_somar()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1449200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu preencho o primeiro numero com o valor \u00271\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 43
+                }
+              ],
+              "location": "TestSteps.eu_preencho_o_primeiro_numero_com_o_valor(int)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 190700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "eu preencho o segundo numero com \u00271\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 34
+                }
+              ],
+              "location": "TestSteps.eu_preencho_o_segundo_numero_com(int)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1407900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "eu devo ver o resultado como \u00272\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 30
+                }
+              ],
+              "location": "TestSteps.eu_devo_ver_o_resultado_como(int)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Calc",
+    "description": "\tComo usuario rentrar com dois valores\n\tCom o objetivo de obter um resultado",
+    "id": "calc",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/Teste.feature",
+    "tags": []
+  }
+]
