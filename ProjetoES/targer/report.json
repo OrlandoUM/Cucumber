@@ -3,87 +3,468 @@
     "line": 3,
     "elements": [
       {
-        "line": 7,
-        "name": "Somar",
+        "line": 5,
+        "name": "Amigo",
         "description": "",
-        "id": "calc;somar",
+        "id": "amigos;amigo",
         "type": "scenario",
         "keyword": "Cenario",
         "steps": [
           {
             "result": {
-              "duration": 94342800,
+              "duration": 224747636,
               "status": "passed"
             },
-            "line": 8,
-            "name": "que eu escolha somar",
+            "line": 6,
+            "name": "Amigo",
             "match": {
-              "location": "TestSteps.que_eu_escolha_somar()"
+              "location": "TestSteps.amigo()"
             },
             "keyword": "Dado "
           },
           {
             "result": {
-              "duration": 1774300,
+              "duration": 1193266,
               "status": "passed"
             },
-            "line": 9,
-            "name": "eu preencho o primeiro numero com o valor \u00271\u0027",
+            "line": 7,
+            "name": "conectar com varios perfis",
             "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 43
-                }
-              ],
-              "location": "TestSteps.eu_preencho_o_primeiro_numero_com_o_valor(int)"
+              "location": "TestSteps.conectar_com_varios_perfis()"
             },
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 242600,
+              "duration": 866612,
               "status": "passed"
             },
-            "line": 10,
-            "name": "eu preencho o segundo numero com \u00271\u0027",
+            "line": 8,
+            "name": "promover o alcance de novas conexoes",
             "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 34
-                }
-              ],
-              "location": "TestSteps.eu_preencho_o_segundo_numero_com(int)"
-            },
-            "keyword": "E "
-          },
-          {
-            "result": {
-              "duration": 1555700,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "eu devo ver o resultado como \u00272\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2",
-                  "offset": 30
-                }
-              ],
-              "location": "TestSteps.eu_devo_ver_o_resultado_como(int)"
+              "location": "TestSteps.promover_o_alcance_de_novas_conexoes()"
             },
             "keyword": "Entao "
           }
         ]
       }
     ],
-    "name": "Calc",
-    "description": "\tComo usuario rentrar com dois valores\n\tCom o objetivo de obter um resultado",
-    "id": "calc",
+    "name": "Amigos",
+    "description": "",
+    "id": "amigos",
     "keyword": "Funcionalidade",
-    "uri": "src/test/resources/Teste.feature",
+    "uri": "src/test/resources/Amigos.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Feed",
+        "description": "",
+        "id": "feed;feed",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 714442,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Feed de noticias",
+            "match": {
+              "location": "TestSteps.feed_de_noticias()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1093306,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "reunir noticias, eventos, pensamentos e acontecimentos de usuarios",
+            "match": {
+              "location": "TestSteps.reunir_noticias_eventos_pensamentos_e_acontecimentos_de_usuarios()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 593063,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "promover a facilidade e a propagacao das divulgacoes",
+            "match": {
+              "location": "TestSteps.promover_a_facilidade_e_a_propagacao_das_divulgacoes()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Feed",
+    "description": "",
+    "id": "feed",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/Feed.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Grupo",
+        "description": "",
+        "id": "grupo;grupo",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 957647,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Grupo",
+            "match": {
+              "location": "TestSteps.grupo()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 489087,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "reunir usuarios especificos com determinados objetivos",
+            "match": {
+              "location": "TestSteps.reunir_usuarios_especificos_com_determinados_objetivos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 318174,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "promover rapidas discussoes dos temas abordados",
+            "match": {
+              "location": "TestSteps.promover_rapidas_discussoes_dos_temas_abordados()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Grupo",
+    "description": "",
+    "id": "grupo",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/Grupo.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Mensagem Direta",
+        "description": "",
+        "id": "mensagem-direta;mensagem-direta",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 761298,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Mensagem Direta",
+            "match": {
+              "location": "TestSteps.mensagem_Direta()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 677403,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "oferecer uma maneira com que usuarios troquem mensagens",
+            "match": {
+              "location": "TestSteps.oferecer_uma_maneira_com_que_usuarios_troquem_mensagens()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 367708,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "garantir total privatizacao nas conversas",
+            "match": {
+              "location": "TestSteps.garantir_total_privatizacao_nas_conversas()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Mensagem Direta",
+    "description": "",
+    "id": "mensagem-direta",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/MensagemDireta.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Notificacao",
+        "description": "",
+        "id": "notificacao;notificacao",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 658215,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Notificacao",
+            "match": {
+              "location": "TestSteps.notificacao()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 359229,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "quaisquer acoes ou eventos de interesse do usuario",
+            "match": {
+              "location": "TestSteps.quaisquer_acoes_ou_eventos_de_interesse_do_usuario()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 912129,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "alertar",
+            "match": {
+              "location": "TestSteps.alertar()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Notificacao",
+    "description": "",
+    "id": "notificacao",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/Notificacao.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Pagina",
+        "description": "",
+        "id": "pagina;pagina",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 469006,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Pagina",
+            "match": {
+              "location": "TestSteps.pagina()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 752373,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "oferecer informacoes sobre algo ou alguem",
+            "match": {
+              "location": "TestSteps.oferecer_informacoes_sobre_algo_ou_alguem()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 323084,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "utilizar dessas informacoes visando a divulgacao, propaganda ou influencia digital",
+            "match": {
+              "location": "TestSteps.utilizar_dessas_informacoes_visando_a_divulgacao_propaganda_ou_influencia_digital()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Pagina",
+    "description": "",
+    "id": "pagina",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/Pagina.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Perfil",
+        "description": "",
+        "id": "perfil;perfil",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 290953,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Perfil",
+            "match": {
+              "location": "TestSteps.perfil()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 237404,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "obter informacoes do usuario",
+            "match": {
+              "location": "TestSteps.obter_informacoes_do_usuario()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 222231,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "utilizar essas informacoes em outras atividades do sistema",
+            "match": {
+              "location": "TestSteps.utilizar_essas_informacoes_em_outras_atividades_do_sistema()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 381988,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "visar melhor experiencia para o usuario",
+            "match": {
+              "location": "TestSteps.visar_melhor_experiencia_para_o_usuario()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Perfil",
+    "description": "",
+    "id": "perfil",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/Perfil.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Postagem",
+        "description": "",
+        "id": "postagem;postagem",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 490873,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Postagem",
+            "match": {
+              "location": "TestSteps.postagem()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 320405,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "divulgar noticias, eventos, marcas, acontecimentos ou ideias dos usuarios",
+            "match": {
+              "location": "TestSteps.divulgar_noticias_eventos_marcas_acontecimentos_ou_ideias_dos_usuarios()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 329777,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "promover os objetivos dos usuarios",
+            "match": {
+              "location": "TestSteps.promover_os_objetivos_dos_usuarios()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Postagem",
+    "description": "",
+    "id": "postagem",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/Postagem.feature",
     "tags": []
   }
 ]
